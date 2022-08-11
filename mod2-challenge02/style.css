@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,800;1,600&family=Oswald&family=Raleway:ital,wght@1,200&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d5bdaf;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0077b6;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+}
+
+header ul li {
+    display: flex;
+    padding: 1rem;
+}
+
+header ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+header ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.logo img {
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+
+/* home */
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.home #titulo {
+    align-self: center;
+    text-align: center;
+}
+
+.home #imagen img {
+    width: 25rem;
+    padding: 0 3rem;
+}
+
+
+/* noticias */
+
+.primera-noticias {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.primera-imagen {
+    align-self: center;
+}
+
+.primera-imagen img {
+    width: 25rem;
+}
+
+.primera-text {
+    padding: 2rem 10rem;
+}
